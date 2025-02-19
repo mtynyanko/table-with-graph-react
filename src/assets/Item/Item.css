@@ -1,0 +1,32 @@
+.line {
+  display: flex;
+
+}
+
+.item-node {
+  display: flex;
+  margin: 2px;
+  background-color: #ebebeb;
+  padding: 5px 12px;
+  height: 30px;
+  align-items: center;
+}
+.yesterday {
+  display: flex;
+  
+}
+.percent {
+  padding-left: 5px;
+}
+.indicator {
+  width: 200px;
+}
+.item-node.yesterday {
+  justify-content: flex-end;
+}
+.item-node.today {
+  justify-content: flex-end;
+}
+.item-node.week {
+  justify-content: flex-end;
+}

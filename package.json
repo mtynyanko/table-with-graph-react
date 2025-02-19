@@ -1,5 +1,6 @@
 {
   "name": "delta_front",
+  "homepage": "https://mtynyanko.github.io/table-with-graph-react/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "highcharts": "^12.1.2",
     "highcharts-react-official": "^3.2.1",
     "react": "^19.0.0",
